@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding: 10px;
+  height: 100%;
+}
+
+.content {
+  background-color: aqua;
+  border: 1px solid black
+}
+
+.list {
+  background-color: bisque;
+}
+
+.content-text {
+  background-color: darkgray;
+}
+
+@media (min-width: 800px) {
+  .content {
+    position: relative;
+    padding-left: 230px;
+  }
+  .sidebar {
+    position: absolute;
+    width: 230px;
+    left: 0;
+    top: 0;
+  }
+  .list {
+    padding: 15px 35px;
+  }
+}
+
+@media (max-width: 799px) {
+  .list {
+    margin: 15px 0;
+    padding-left: 40px;
+    list-style: none;
+  }
+  .list > li {
+    display: inline-block;
+  }
+}

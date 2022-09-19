@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 70px;
+  padding: 10px;
+  background-color: #EAEAEA;
+}
+
+.left-column {
+  width: 200px;
+  padding: 10px;
+  margin-right: 10px;
+  float: left;
+  background-color: #C8FC98;
+}
+
+.content-column {
+  padding: 10px;
+}
+
+.column-title {
+  font-size: 18px;
+}
+
+.text-red {
+  color: red;
+  font-style: italic;
+}
+
+.footer {
+  clear: both;
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+}
+
+.footer-link {
+  color: #FDE95E;
+}

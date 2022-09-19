@@ -1,0 +1,71 @@
+/* CSS селекторы: *, body, .content, .header, .footer, .content h1, ul > li, :first-child, :last-child, :nth-child().
+CSS свойства: margin, padding, border, width, height, min-height, min-width, max-width, box-sizing, float, font-family, font-size, line-height, text-align, background, color, display, visibility, position, top, left, clear, overflow, list-style, text-decoration, единицы измерения: px, em, %, media. */
+
+figcaption {
+  color: #C8FC98;
+  color: #EAEAEA;
+  color: #FFFF80;
+  color: #FDE95E;
+  color: red;
+  color: blue;
+  color: green;
+  color: blueviolet;
+  color: darkred;
+  color: peru;
+  color: forestgreen;
+  color: indianred;
+  color: indigo;
+  color: white;
+  color: aqua;
+  color: bisque;
+  color: darkgray;
+  color: limegreen;
+  color: aquamarine ;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 70px;
+  padding: 10px;
+  background-color: #EAEAEA;
+}
+
+.left-column {
+  padding: 10px;
+  background-color: #C8FC98;
+}
+
+.content-column {
+  padding: 10px;
+}
+
+.right-column {
+  padding: 10px;
+  background-color: #FDE95E;
+}
+
+.column-title {
+  font-size: 18px;
+}
+
+.text-red {
+  color: red;
+  font-style: italic;
+}
+
+.footer {
+  clear: both;
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+}
+
+.footer-link {
+  color: #FDE95E;
+}

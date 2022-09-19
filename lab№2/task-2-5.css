@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding: 10px;
+}
+
+.block {
+  margin: 0 auto;
+  color: white;
+}
+
+.block-one {
+  max-width: 500px;
+  margin-bottom: 20px;
+  background-color: green;
+}
+
+.block-two {
+  max-width: 600px;
+  padding: 40px;
+  border: 10px solid blue;
+  background-color: blue;
+}

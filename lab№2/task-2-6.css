@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding: 10px;
+}
+
+.block {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.block-one {
+  margin-bottom: 20px;
+}
+
+.block-two {
+  padding: 50px;
+  border: 10px solid blue;
+}

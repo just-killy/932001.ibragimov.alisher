@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding: 10px;
+}
+
+.block-1 {
+  width: 200px;
+  height: 100px;
+  margin: 10px 10px 20px;
+  background-color: aquamarine;
+}
+
+.block-2 {
+  background-color: bisque;
+}

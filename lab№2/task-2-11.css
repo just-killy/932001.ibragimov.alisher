@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+  border: 1px solid black;
+}
